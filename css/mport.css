@@ -1,4 +1,5 @@
 @font-face{font-family: madetommmy; src: url(madetommmy.otf); text-rendering: optimizeLegibility;}
+html{scroll-behaviour:smooth;}
 body{font-family: madetommmy; margin:0;} /*Make border margins disappear by margin:0*/
 header{background-color: #151517;}
 p#size{color: #c98546;text-align: center;padding-top: 1%;font-size: 120%; margin-top: 0;}/*Make paragraph margins disappear by margin-top:0*/
@@ -17,12 +18,9 @@ div#shift{text-align: center;}
 a{color: white; text-decoration: none;}
 a:hover{transform: scale(0.7)}
 div#horizontal-list{text-align: center;}
+div.service{background-color: #2c2c2c; padding: 5px;margin-top: 2%;}
 div#one{background-color: #2c2c2c; padding: 5px;}
-div#two{background-color: #2c2c2c; padding: 5px;margin-top: 2%;}
-div#three{background-color: #2c2c2c; padding: 5px;margin-top: 2%;}
-div#four{background-color: #2c2c2c; padding: 5px;margin-top: 2%;}
-div#five{background-color: #2c2c2c; padding: 5px;margin-top: 2%;}
-div#six{background-color: #2c2c2c; padding: 5px;margin-top: 2%;}
+div#shift > p{color: #ffffff;}
 span#hello{color: #c98546; text-transform: uppercase;letter-spacing: 3px;}
 div#footer{background: #333130; padding: 6%;text-align: center;}
 img#contact_me{width: 2%; display: inline-block; vertical-align: middle; margin-right: 5px;}
@@ -40,4 +38,5 @@ p#credits{color: #c98546;}
 p#note{color: #c98546;}
 p#first_service,p#second_service,p#third_service,p#fourth_service,p#fifth_service,p#sixth_service{font-size: 90%;}
 div.media_icon{margin-top: 15px;}
-p#send{color:  #c98546;;}
+p#send{color:  #c98546;}
+p::selection{color:#f4a71d;}
